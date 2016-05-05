@@ -1,0 +1,5 @@
+1. Enter the following command to use kitti2pcd:
+  ./kitti2pcd --infile filename1.png --outfile filename2.pcd
+2. Enter the following command to use kittitrackletextract:
+  ./kittitrackletextract --infile filename1.pcd --outfile filename2
+3. If there are errors when you use the above commands, please refer to the file kitti.sh in script dir.
