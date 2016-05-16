@@ -74,5 +74,5 @@ int main(int argc, char **argv){
     pcl::PCDWriter writer;
 
     // Save DoN features
-    writer.write<PointXYZI> (outfile, *points, false);
+    writer.write<PointXYZI> (outfile, *points, true);
 }
